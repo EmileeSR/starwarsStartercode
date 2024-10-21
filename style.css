@@ -13,7 +13,8 @@ img {
 }
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #13083b;
+  color:yellow;
 }
 
 
@@ -21,7 +22,7 @@ body {
 h1 {
   font-family: "SF Distant Galaxy";
 }
-
+a{color:yellow;}
 
 
 /* computer */
@@ -31,3 +32,12 @@ h1 {
 
 }
 
+.sample-1 {display:flex;
+justify-content:center;}
+
+
+.sample-2 {display:flex;
+  justify-content:space-around;}
+  
+  .sample-3 {display:flex;
+    justify-content:center;}
