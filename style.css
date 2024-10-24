@@ -57,18 +57,23 @@ a:hover {
   color:red
   }
   
-.sample-1 {display:flex;
-  justify-content:center;
-flex-direction: column;}
+.sample-1 {
+flex-direction: column;
+display:flex;
+justify-content:center;
+}
   
   
-  .sample-2 {display:flex;
+  .sample-2 {
+    display:flex;
     justify-content:space-around;
   flex-direction: column;}
     
-    .sample-3 {display:flex;
+    .sample-3 {
+      display:flex;
       justify-content:center;
-    flex-direction: column;}
+      flex-direction: column;
+    }
 
 
     }
