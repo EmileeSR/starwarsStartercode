@@ -12,12 +12,11 @@ img {
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
 
-
 /* phone */
 body {
-  background-color: #e4e7ec;
-}
+  background-color: #13083b;
 
+}
 
 
 h1 {
@@ -29,7 +28,47 @@ h1 {
 /* computer */
 @media screen and (min-width: 600px) {
 
+a{
+  color: yellow
+}
+a:hover {
 
-
+color:red
 }
 
+.sample-1 {display:flex;
+justify-content:center;}
+
+
+.sample-2 {display:flex;
+  justify-content:space-around;}
+  
+  .sample-3 {display:flex;
+    justify-content:center;}
+  }
+
+
+
+    @media screen and (min-width: 600px) {
+a{
+  color:yellow
+}
+a:hover {
+  color:red
+  }
+  
+.sample-1 {display:flex;
+  justify-content:center;
+flex-direction: column;}
+  
+  
+  .sample-2 {display:flex;
+    justify-content:space-around;
+  flex-direction: column;}
+    
+    .sample-3 {display:flex;
+      justify-content:center;
+    flex-direction: column;}
+
+
+    }
